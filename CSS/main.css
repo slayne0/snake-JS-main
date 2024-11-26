@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+p {
+  color: white;
+}
+
+.game-container {
+  width: 600px;
+  height: 600px;
+  background-color: #333;
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: repeat(20, 1fr);
+}
+
+.apple {
+  background-color: #f00;
+}
+
+.snake {
+  background-color: #0f0;
+}
+
+.snake-head {
+  background-color: #0a0;
+}
